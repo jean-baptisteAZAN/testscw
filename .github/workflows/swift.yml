@@ -17,4 +17,4 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: swift build -swift-version -Xswiftc 6.0.3 -v
+      run: swift build -v
